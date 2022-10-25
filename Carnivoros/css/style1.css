@@ -1,0 +1,146 @@
+/*ESTILO @MEDIA*/
+
+body {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 9pt;
+  color: rgb(0, 0, 0);
+  background-image: url("../img/fondo1.png");
+  background-size: cover;
+
+}
+
+img {
+  display: block;
+  margin: auto;
+  transition: transform -2s;
+  border-radius:8px ;
+}
+.img:hover {
+  transform: scale(1.2);
+}
+@media (min-width: 601px) {
+  .grid-layout {
+   
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    margin-top: 2%;
+  }
+  
+  .caja {
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 1201px) {
+  .grid-layout {
+  
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    margin-top: 2%;
+  }
+  
+  .caja {
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    margin-bottom: 5%;
+  }
+
+}
+@media (min-width: 1601px) {
+  .grid-layout {
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    margin-top: 2%;
+  }
+  
+  .caja {
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    margin-bottom: 5%;
+  }
+
+}
+/*FELXBOX*/
+.flex{
+  border: 1px solid black;
+  background-color: #bfd9d7;
+  color: black;
+  width: auto;
+  height: auto;
+  margin: 3%;
+  margin-top: 150px;
+  font-size: large;
+}
+/*fin flexbox*/
+/*ESTILO ENCABEZADO*/
+body {
+  margin: 0;
+}
+
+header {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+h1 {
+  float: center;
+  margin: 0.4%;
+  ;
+}
+
+h1 a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding-bottom: 25px;
+}
+
+
+h1 a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #bfd9d7;
+
+}
+
+/*estilo letra CARNIVOROS*/
+.letra {
+  font-size: 69px;
+  text-shadow: 0.1em 0.1em 0.2em rgba(37, 135, 124, 255);
+  font-family: felix titling;
+
+}
+
+.logo {
+  float: left;
+  margin-right: -59%;
+  margin-left: 3%;
+  box-shadow: 0.1em 0.1em 0.12em rgba(0, 0, 0, 0.643);
+
+}
+
+footer {
+  background-color: #bfd9d7;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+/*FIN ESTILO LETRA*/
+
+/*fin ESTILO ENCABEZADO*/
